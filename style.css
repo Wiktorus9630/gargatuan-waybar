@@ -1,0 +1,57 @@
+ * {
+     font-family: "Comfortaa", "Font Awesome 6 Free", sans-serif;
+     font-size: 14px;
+     font-weight: bold;
+ }
+
+ window#waybar {
+     background: transparent;
+ }
+
+ .modules-left, .modules-center, .modules-right {
+     background: rgba(26, 26, 26, 0.9);
+     border: 2px solid #d4a373;
+     border-radius: 15px;
+     padding: 2px 12px;
+     color: #ffffff;
+ }
+
+ #clock, #cpu, #memory, #pulseaudio, #network {
+ color: #d4a373;
+ }
+
+ #workspaces button {
+ color: #ffffff;
+ padding: 0 5px;
+ }
+
+ #workspaces button.active {
+ color: #d4a373;
+ font-weight: bold;
+ }
+
+ #window {
+ color: #d4a373;
+ font-weight: bold;
+ }
+
+ #clock, #cpu, #memory, #pulseaudio, #network {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+
+ #cpu, #memory, #network, #pulseaudio, #clock {
+ min-width: 0;
+ padding: 0 8px;
+ margin: 0 2px;
+ }
+
+ #cpu label, #memory label, #network label, #pulseaudio label {
+ padding-left: 4px;
+ }
+
+ #cpu, #memory, #network, #pulseaudio, #clock {
+ font-family: "JetBrains Mono", "Comfortaa";
+ font-weight: 800;
+ font-size: 13px;
+ }
